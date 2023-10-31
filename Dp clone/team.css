@@ -1,0 +1,121 @@
+body{
+    font-family: 'Montserrat', sans-serif;font-family: 'Montserrat', sans-serif;
+    font-weight:800px;
+}
+nav>img{
+    width: 308px;
+    height: 87px;
+    margin-left:110px;
+    margin-top: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 94px;
+    width: 100%;
+    border-bottom:2px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index:3;
+    background-color: white;
+    
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;   
+    margin-right: 100px;
+    
+}
+
+
+nav>ul>a{
+     
+     text-decoration: none;
+     color: #a82700;
+    text-transform: capitalize;
+     font-size: 15px;
+    font-weight:500px;
+    cursor: pointer;
+}
+.lang{
+    background-color: black;
+    padding:5px 20px;
+    color:white;
+    border-radius: 20px;
+    
+}
+.dropdown{
+   position: absolute;
+   top:95px;
+   
+   left:700px;
+   box-shadow:1px 1px 1px 1px rgba(0,0,0,0.3);
+  width: 230px;
+  height:135px;
+  background-color:#fff;
+}
+
+
+.dropdown>ul>a{
+    text-decoration: none;
+    color: #a82700;
+   text-transform: capitalize;
+    font-size: 15px;
+   font-weight:500px;
+   padding:7px;
+   margin-left:-10px;
+}
+.dropdown>ul{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+.hover:hover + .dropdown,.hover:hover:onclick + .dropdown{
+   
+       display: block;
+    
+}
+
+.container > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+div img {
+    width: 32%;
+    margin: 7px;
+    height: 30%;
+    float: left;
+}
+div img:hover{
+    transform : scale(0.9, 0.9);
+    /* filter: brightness(30%); */
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+    cursor: pointer;
+}
+.foot{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    height: 110px;
+    width: 100%;
+    text-align: center;
+    background-color:#1F272E;
+    color: rgb(255, 255, 255);
+    bottom:-300px;
+}
+i{
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
