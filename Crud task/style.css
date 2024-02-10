@@ -1,0 +1,86 @@
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.maincontainer {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border: 2px solid;
+    background-color: aliceblue;
+    width: 450px;
+    font-size: 23px;
+    box-shadow: 1px 4px 9px 6px black;
+}
+#container2 {
+    width: 450px;
+    background-color: aliceblue;
+    border: 2px solid;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 7px 3px 12px 5px black;
+}
+table {
+    text-align: center;
+}
+input {
+    margin: 2px;
+    width: 50%;
+    border: none;
+    border-radius: 7px;
+    height: 28px;
+    font-size: 20px;
+    box-shadow: 2px 4px 4px gray;
+    transition: 0.4s;
+}
+input:focus{
+    width: 90%;
+}
+#upt{
+    display: none;
+}
+.Twobtn {
+    display: flex;
+}
+#sub,#res,#upt{
+    width: 117px;
+    font-size: 18px;
+    height: 43px;
+    margin: 14px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px gray;
+    transition: 0.4s;
+}
+.sub{
+    background-color: rgb(60, 179, 113);
+    color: white;
+}
+#res {
+    background: rgb(238, 28, 28);
+    color: white;
+}
+.upt{
+    background: rgb(10, 32, 228);
+    color: white;
+}
+#sub:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgb(66 114 87);
+}
+#res:hover{
+    transform: scale(1.1,1.1);
+    background-color: #c84747;
+}
+.del,.edi{
+    border: none;
+    background-color: aliceblue;
+    transition: 0.2s;
+}
+.del:hover,.edi:hover{
+    transform: scale(1.1,1.1);
+}

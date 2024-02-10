@@ -1,0 +1,37 @@
+.main {
+    position: relative;
+    width: 26%;
+    background-color: rgb(246,171,190);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top: 216px;
+    left: -9px;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+input#get {
+    height: 30px;
+    width: 220px;
+    margin-left: 51px;
+    border-radius: 3px;
+    border: none;
+}
+button#sub {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    width: 67px;
+    height: 37px;
+    border-radius: 10px;
+    position: relative;
+    top: -11px;
+    left: 11px;
+}
+input#check {
+    cursor: pointer;
+}

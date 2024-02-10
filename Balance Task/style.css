@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(248 248 248);
+}
+.container {
+    width: 20%;
+    position: relative;
+    left: 500px;
+    top: 10px;
+}
+h3.head {
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    position: relative;
+    left: 55px;
+}
+p.bla {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+i#fon {
+    font-size: 20px;
+}
+h2.amo {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    font-size: 35px;
+}
+h3.wei {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 100px;
+    color: #434343;
+}
+span#hig {
+    font-size: 35px;
+}
+.add{
+    
+    color: lightgreen;
+}
+.flex {
+    display: flex;
+    align-items: baseline;
+}
+
+.low{
+    color: red;
+}
+button.close {
+    background-color: red;
+    width: 23px;
+}
+.blo{
+    display: none;
+}
+.non{
+    display: block;
+}
+
+.close:hover{
+    background-color: rgb(196, 11, 11);
+}
+.minicontainer {
+    font-family: 'PT Sans', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 1px 2px 4px 0px gray;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    height: 83px;
+}
+.get2 {
+    overflow: auto;
+    max-height: 145px;
+}
+.his {
+    margin: 8px;
+    font-family: Lato, sans-serif;
+}
+.mov2 {
+    margin-bottom: -13px;
+    font-family: system-ui;
+    margin-top: 7px;
+}
+p {
+    margin-bottom: 11px;
+}
+.tra {
+    margin: 7px;
+    font-family: 'Lato', sans-serif;
+}
+p.bol {
+    font-weight: 600;
+}
+.lin {
+    font-size: 21px;
+    border-left: 1px solid;
+}
+#box {
+    margin-bottom: 8px;
+    height: 30px;
+    box-shadow: 1px 1px 2px 0px #d7d7d7;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+p#in {
+    font-size: 23px;
+    margin-top: -10px;
+}
+hr {
+    margin-top: -7px;
+    width: 100%;
+    margin-left: 1px;
+}
+p.mov {
+    margin-bottom: 3px;
+    font-family: system-ui;
+}
+input {
+    height: 27px;
+    border: 1px solid;
+    width: 100%;
+    border-color: #cbcbcb;
+}
+button {
+    margin-top: 7px;
+    width: 100%;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(178,119,255);
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+    background-color:rgb(137 65 231);
+}
+button.close {
+    width: 23px;
+}
+.red{
+    border-right:6px solid red ;
+}
+.green{
+    border-right:6px solid green ;
+}

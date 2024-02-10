@@ -1,0 +1,48 @@
+body {
+    background: rgb(179 159 241);
+}
+input {
+    width: 298px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    margin: 22px;
+    padding: 4px;
+}
+button {
+    width: 115px;
+    height: 39px;
+    background: rgb(37,27,72);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    margin: 22px;
+    padding: 5px;
+    font-size: large;
+}
+div {
+    background-color: rgb(88,69,158);
+    height: 89px;
+    border: none;
+    width: 42%;
+    margin: 210px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding: 3px;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 180px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: -162px;
+    font-family: 'Montserrat', sans-serif;
+}
