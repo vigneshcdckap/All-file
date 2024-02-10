@@ -1,0 +1,10 @@
+p{
+    color: white;
+    width: 350px;
+    background-color: black;
+    font-size: xx-large;
+    display: none;
+}
+h3:hover~p{
+    display: block;
+}

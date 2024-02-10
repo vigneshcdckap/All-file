@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+* {
+    font-family: 'Roboto', sans-serif;   
+}
+section {
+    scroll-margin-top: 2em;
+}
+header .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+}
+header .header-nav {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+header .header-nav > div {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 29px;
+}
+header .header-nav .title-text {
+    margin: 0;  
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #4E4E4E;
+}
+header .header-nav .nav-menu .nav-menu-ul {
+    margin: 0;
+    padding: 0;
+}
+header .header-nav .nav-menu .nav-menu-ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 14px;
+}
+header .header-nav .nav-menu .nav-menu-ul li a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;  
+    color: #000000;
+}
+header .container .header-banner {
+    font-size: 0;
+    border-bottom: 40px solid;
+    border-image: linear-gradient(to right, #053786, #00A6CB) 1;
+    position: relative;
+}
+header .container .header-banner img {
+    width: 100%;
+    object-fit: cover;
+}
+header .container .header-banner .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    width: 447px;
+}
+header .container .header-banner .banner-text h2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 63px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 33px;
+}
+header .container .header-banner .banner-text p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.technology .container {
+    max-width: 1190px;
+    padding: 0 20px;
+    margin: 88px auto 0;
+}
+.technology .container .technology-list .heading {
+    margin: 0;
+    margin-bottom: 39px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+.technology .container .technology-list .tech-types {
+    max-width: 635px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.technology .container .technology-list .tech-types ul {
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+}
+.technology .container .technology-list .tech-types ul:first-child {
+    padding-right: 108px;
+}
+.technology .container .technology-list .tech-types ul li {
+    list-style: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #262626;
+    margin-bottom: 20px;
+    padding-left: 32px;
+    width: 100%;
+    position: relative;
+}
+.technology .container .technology-list .tech-types ul li::before {
+    content:"";
+    background-image: url("images/priority.png");
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width:21px;
+    height: 21px;
+    background-size: contain;
+}
+.technology .container .technology-list .tech-types ul .note {
+    margin-top: 26px;
+    position: relative;
+    left: -15px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #262626;
+}
+.technology-details {
+    margin-top: 93px;
+    scroll-margin-top: 10em;
+}
+.side-heading {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 50px;    
+    color: #4E4E4E;
+    margin: 0;
+    margin-bottom: 54px;
+    padding-left: 13px;
+    border-left: 5px solid;
+    border-image: linear-gradient(#053786, #00A6CB) 1;
+}
+.technology-details .image-box  {
+    position: relative;
+}
+.technology-details .image-box img {
+    width: 100%;
+}
+.technology-details .image-box .inner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 520px;
+    right: 49px;
+}
+.technology-details .image-box .inner-content p {
+    font-family: 'Roboto';
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #262626;
+}
+.patent-portfolio {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 94px;
+    scroll-margin-top: 5em;
+}
+.patent-portfolio  .portfolio-description {
+    width: 44%;
+}
+.patent-portfolio  .portfolio-description h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 28px;
+}
+.patent-portfolio  .portfolio-description p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #262626;
+}
+.patent-portfolio .portfolio-img {
+    width: 50%;
+    text-align: right;
+}
+.patent-portfolio .portfolio-img img {
+    max-width: 520px;
+    width: 100%;
+}
+.patent-portfolio .portfolio-benefits {
+    width: 100%;
+}
+.patent-portfolio .portfolio-benefits.part-one {
+    position: relative;
+    top: -18px;
+    margin-bottom: 71px;
+}
+.patent-portfolio .portfolio-benefits > p {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #262626;   
+    margin: 0;
+    margin-bottom: 29px; 
+}
+.patent-portfolio .portfolio-benefits .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 31px;
+    justify-content: space-between;
+}
+.patent-portfolio .portfolio-benefits .card-box {
+    border: 1px solid #CFD5DA;
+    border-radius: 5px;
+    display: flex;
+    width: calc((100% / 3) - 24px);
+    min-height: 130px;
+    align-items: center;
+}
+.patent-portfolio .portfolio-benefits .card-box .card-img {
+    width: 61px;
+    text-align: center;
+    background: #F3F5F6;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+.patent-portfolio .portfolio-benefits .card-box .card-img img {
+    width: 20px;
+    object-fit: contain;
+}
+.patent-portfolio .portfolio-benefits .card-box .card-details  {
+    width: calc(100% - 61px);
+}
+.patent-portfolio .portfolio-benefits .card-box .card-details p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #262626;
+    margin: 0;
+    padding: 0 30px 0 21px;
+}
+.licensing {
+    padding: 75px 0;
+    background: #F3F5F6;
+}
+.licensing .container {
+    max-width: 1190px;
+    padding: 0 20px;
+    margin: auto;
+}
+.licensing .container .side-heading {
+    margin-bottom: 50px;
+}
+.licensing .container .table-content .title {
+    margin: 0;
+    margin-bottom: 29px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;    
+    color: #000000;    
+}
+.licensing .container .table-content table {
+    max-width: 613px;
+    margin: auto;
+    text-align: left;    
+    border-collapse:separate;
+    border: 1px solid #CFD5DA;
+    border-radius:10px;
+}
+.licensing .container .table-content table td, 
+.licensing .container .table-content table th {
+    border-left:solid #CFD5DA 1px;
+    border-top:solid #CFD5DA 1px;
+}
+.licensing .container .table-content table th {
+    background-color: blue;
+    border-top: none;
+}
+.licensing .container .table-content table td:first-child, th:first-child {
+    border-left: none;
+}
+.licensing .container .table-content table tr {
+    background: #FFFFFF;
+}
+.licensing .container .table-content table tr th{
+    background-color: #011533;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 13px 0 11px;
+    padding-left: 23px;
+    
+}
+.licensing .container .table-content table tr th:first-child {
+    border-top-left-radius: 10px;
+}
+.licensing .container .table-content table tr th:last-child {
+    border-top-right-radius: 10px;
+}
+.licensing .container .table-content table tr td {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    color: #262626;
+    padding-left: 23px;
+}
+.licensing .container .table-content table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+.licensing .container .table-content table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+.licensing .container .table-content .note {
+    margin: 0;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #262626;
+    text-align: center;
+}
+.contact {
+    background: #011533;
+    padding: 109px 0 61px
+}
+.contact .container {
+    max-width: 1190px; 
+    padding: 0 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .container .contact-description  {
+    width: 421px;
+}
+.contact .container .contact-description .side-heading {
+    color: #fff;
+    margin-bottom: 32px;
+}
+.contact .container .contact-description p,
+.contact .container .contact-description a {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 35px;
+    text-decoration: none;
+}
+.contact .container .contact-description p span {
+    font-weight: 600;
+    display: block;
+}
+.contact .container .contact-map {
+    width: calc(100% - 500px);
+}
+.contact .container .contact-map iframe {
+    filter: invert(95%) grayscale(0.1);
+    mix-blend-mode: exclusion;
+}
+footer {
+    background: #011533;
+    border-top: 5px solid;
+    border-image: linear-gradient(to right, #053786, #00A6CB) 1;
+}
+footer .copyright {
+    max-width: 1190px;
+    padding: 0 20px;
+    margin: auto;
+    text-align: center;
+    padding: 26px 0 24px;
+}
+footer .copyright p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #DADADA;
+    margin: 0;
+}
+@media (max-width: 1200px) {
+    header .container .header-banner {
+        border-bottom: 20px solid;
+    }
+    header .container .header-banner .banner-text {
+        left: 30%;
+    }
+    header .container .header-banner .banner-text h2 {
+        font-size: 45px;
+        line-height: 58px;
+    }
+    .technology-details .image-box .inner-content {
+        width: 480px;
+    }
+    .patent-portfolio .portfolio-benefits.part-one {
+        top: 0;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 1023px) {
+    header .header-nav .title-text {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+    header .header-nav .nav-menu .nav-menu-ul li {
+        padding: 0 10px;
+    }
+    header .container .header-banner .banner-text h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    header .container .header-banner .banner-text p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    header .container .header-banner .banner-text {
+        left: 36%;
+    }
+    .technology .container,
+    .technology-details,
+    .patent-portfolio {
+        margin-top: 55px;
+    }
+    .technology .container .technology-list .heading {
+        font-size: 22px;
+    }
+    .technology .container .technology-list .tech-types ul .note {
+        left: 0;
+    }
+    .side-heading {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+    .technology-details .image-box .inner-content {
+        width: 350px;
+        right: 25px;
+    }
+    .technology-details .image-box .inner-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .patent-portfolio .portfolio-description h3{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .patent-portfolio .portfolio-description,
+    .patent-portfolio .portfolio-img {
+        width: 100%;
+    }
+    .patent-portfolio .portfolio-img {
+        text-align: center;
+    }
+    .patent-portfolio .portfolio-benefits.part-one {
+        margin-top: 30px;
+    }
+    .patent-portfolio .portfolio-benefits .card-box .card-details p {
+        padding: 0 10px;
+        font-size: 15px;
+    }
+    .patent-portfolio {
+        margin-bottom: 55px;
+    }
+    .licensing, .contact {
+        padding: 50px 0
+    }
+    .licensing .container .table-content .title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .contact .container .contact-description,
+    .contact .container .contact-map {
+        width: 48%;
+    }
+}
+@media (max-width: 767px) {
+    header .header-nav > div {
+        padding: 15px 10px;
+        flex-direction: column;
+    }
+    header .header-nav .nav-menu .nav-menu-ul {
+        margin: 10px 0 0;
+    }
+    header .container .header-banner {
+        border-bottom: 10px solid;
+    }
+    header .container .header-banner .banner-text {
+        width: 80%;
+        left: 50%;
+    }
+    header .container .header-banner .banner-text h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    header .container .header-banner .banner-text p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .patent-portfolio .portfolio-benefits .card-box {
+        width: calc((100% / 2) - 24px);
+    }
+    .contact .container {
+        flex-direction: column;
+    }
+    .contact .container .contact-description, .contact .container .contact-map {
+        width: 100%;
+    }
+    .technology-details .image-box .inner-content {
+        position: relative;
+        top: auto;
+        right: auto;
+        transform: none;
+        width: 100%;
+        width: calc(100% - 40px);
+        padding: 20px;
+    }
+    .technology-details .image-box {
+        display: flex;
+        flex-direction: column-reverse;
+        background: #cdd9e7;
+        border-radius: 20px;
+    }
+    footer .copyright {
+        padding: 15px 10px;
+    }
+    .patent-portfolio,
+    .licensing, .contact {
+        scroll-margin-top: 10em;
+    }
+}
+@media (max-width: 600px) {
+    header .container .header-banner img {
+        height: 300px;
+    }
+    .technology .container .technology-list .tech-types {
+        flex-direction: column;
+    }
+    .technology .container .technology-list .tech-types ul {
+        width: 90%;
+    }
+    .technology .container .technology-list .tech-types ul:first-child {
+        padding: 0;
+    }
+    .patent-portfolio .portfolio-description p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .patent-portfolio .portfolio-benefits .card-container {
+        row-gap: 20px;
+        justify-content: center;
+    }
+    .patent-portfolio .portfolio-benefits .card-box {
+        max-width: 360px;
+        width: 100%;
+    }
+    .contact .container .contact-description p, .contact .container .contact-description a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .patent-portfolio .portfolio-benefits .card-box .card-details p {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 375px) {
+    header .header-nav .title-text {
+        font-size: 16px;
+    }
+    header .header-nav .nav-menu .nav-menu-ul li a {
+        font-size: 15px;
+    }
+}
