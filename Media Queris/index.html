@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Media queries</title>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="contact-box">
+			<div class="contact-links">
+				<h1>CONTACT</h1>
+				
+				<!-- Social Icons -->
+				<div class="links">
+					<div class="link">
+						<a><img src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin"></a>
+					</div>
+					<div class="link">
+						<a><img src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"></a>
+					</div>
+					
+					<div class="link">
+						<a><img src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="codepen"></a>
+					</div>
+					<div class="link">
+						<a><img src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email"></a>
+					</div>
+				</div>
+			</div>
+			<div class="contact-form-wrapper">
+				<button id="myBtn">Click here</button>
+				<!-- The Modal -->
+				<div id="myModal" class="modal">					
+					<div class="modal-content">						
+						<form>
+							<span class="close">&times;</span>
+							<div class="form-item">
+								<input type="text" name="sender" required>
+								<label>Name:</label>
+							</div>
+							<div class="form-item">
+								<input type="text" name="email" required>
+								<label>Email:</label>
+							</div>
+							<div class="form-item">
+								<textarea class="" name="message" required></textarea>
+								<label>Message:</label>
+							</div>
+							<button class="submit-btn">Send</button>  
+						</form>
+					</div>					
+				</div> 				
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+	var modal = document.getElementById("myModal");
+	var btn = document.getElementById("myBtn");
+	var span = document.getElementsByClassName("close")[0];
+	btn.onclick = function() {
+		modal.style.display = "block";
+	}
+	span.onclick = function() {
+		modal.style.display = "none";
+	}
+	window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	}
+</script>
+</html>

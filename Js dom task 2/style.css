@@ -1,0 +1,20 @@
+.container2 {
+    text-align: center;
+    margin-top: 220px;
+}
+#btn1,#btn2{
+    background-color:black;
+    color: white;
+    margin: 14px;
+    font-size: 17px;
+    width: 209px;
+    height: 75px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 4px 4px gray;
+    transition: 0.4s;
+}
+#btn1:hover,#btn2:hover{
+    transform: scale(1.1,1.1);
+}

@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+#blu{
+    background-color: rgb(14, 140, 237);
+    cursor: pointer;
+}
+#gre{
+    background-color: green;
+    cursor: pointer;
+}
+#ora{
+    background-color: rgb(255, 89, 0);
+    cursor: pointer;
+}
+.column{
+    width:500px;
+    margin: auto;
+    margin-top: 30px;
+    padding:15px;
+    background: linear-gradient(rgb(195, 77, 97),yellow,blue,red);
+}
+button{
+    border:solid rgb(0, 0, 0) 4px;
+    height: 60px;
+    width: 500px;
+}
+body{
+    background-image: url(bac.jpg);
+    background-size: cover;
+}
+.container{
+    margin-top: 150px;
+}

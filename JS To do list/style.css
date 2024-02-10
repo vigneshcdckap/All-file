@@ -1,0 +1,81 @@
+body{
+    background-image: url(img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cen {
+    box-shadow:2px 4px 4px 2px black;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 310px;
+    width: 50%;
+    height: 369px;
+    background: rgb(255 255 255);
+    color: black;
+}
+#dem {
+    width: 40%;
+    position: relative;
+    left: 196px;
+}
+h1,h3{
+    color: black;
+}
+input#inp {
+    border: groove;
+    border-radius: 25px;
+    width: 70%;
+    height: 33px;
+    background-color:#ffffff5e;
+}
+button#btn{
+    font-size: 22px;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 4px 4px gray;
+    transition: 0.4s;
+}
+#btn:hover{
+    background-color:rgb(60, 179, 113);
+    transform: scale(1.1,1.1);
+}
+button#del {
+    margin-top: 10px;
+    margin-left: 308px;
+    font-size: 14px;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 4px 4px gray;
+    transition: 0.4s;
+}
+div#div1 {
+    position: relative;
+    top: -39px;
+}
+div#hea {
+    height: 14px;
+}
+#del:hover{
+    background: #ff1818d4;
+    transform: scale(1.1,1.1);
+}
+#cle,#edi{
+    position: relative;
+    left:84px;
+    background-color: transparent;
+    width: 27px;
+    height: 27px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#cle:hover,#edi:hover{
+    transform: scale(1.3,1.3);
+}

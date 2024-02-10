@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(45deg, red, blue);
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.box1 {
+    width: 30%;
+    text-align: center;
+    height: 579px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    width: 30%;
+    text-align: center;
+    height: 579px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    width: 30%;
+    text-align: center;
+    height: 579px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: blueviolet;
+    font-size: 22px;
+    width: 250px;
+    height: 85px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 4px 4px black;
+    transition: 0.3s;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+}
+.color{
+    color: white;
+    background-color: red;
+}

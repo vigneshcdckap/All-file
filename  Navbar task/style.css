@@ -1,0 +1,36 @@
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+}
+img {
+    width: 15%;
+}
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+}
+.icons {
+    word-spacing: 11px;
+}
+.social{
+    word-spacing: 8px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #696565;
+    font-family: 'Varela Round', sans-serif;
+    transition:0.4s ;
+}
+a:hover{
+    color: black;
+}
+i{
+    transition:0.4s ;
+}
+i:hover{
+    transform: scale(1.2,1.2);
+}

@@ -1,0 +1,110 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.form-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 3px #505050;
+}
+input {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.4s;
+    outline: none;
+}
+input:focus{
+    width: 100%;
+}
+button {
+    width: 90%;
+    margin-left: 15px;
+    height: 31px;
+    transition: 0.4s;
+    background-color: rgb(60, 179, 113);
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+}
+span{
+    color: rgb(0, 132, 255);
+    cursor: pointer;
+
+}
+span#eye2 {
+    color: black;
+    position: absolute;
+    top: 476px;
+    right: 494px;
+    cursor: pointer;
+}
+span#eye {
+    color: black;
+    position: absolute;
+    top: 411px;
+    right: 494px;
+    cursor: pointer;
+}
+span:hover{
+    text-decoration: underline;
+}
+#message {
+    display:none;
+    color: #000;
+    position: absolute;
+    padding: 20px;
+    top: 300px;
+    right: 70px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 3px #505050;
+
+}
+.valid {
+    color: green;
+} 
+.valid:before {
+    position: relative;
+    left: -10px;
+    content: "✔";
+}  
+.invalid {
+    color: red;
+}
+.invalid:before {
+    position: relative;
+    left: -10px;
+    content: "✖";
+} 
+.mar {
+    margin-top: -8px;
+    margin-bottom: 3px;
+    /* background-color: red; */
+    display: none;
+    width: 80%;
+    height: 24px;
+    /* display: flex; */
+    align-items: center;
+}
+.mar2{
+    margin-top: -8px;
+    margin-bottom: 3px;
+    color: red;
+    /* background-color: red; */
+    /* display: none; */
+    width: 80%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
