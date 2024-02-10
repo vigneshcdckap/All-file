@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Caveat&family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500&family=Outfit:wght@400;700&family=PT+Sans&family=Pacifico&family=Poppins&family=Roboto&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+<h2>Feedback Form</h2>
+    <form name="forms">
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <div class="flex1">
+ <div class="flex">
+        <input type="radio" id="Feedback1" name="Feedback">
+        <label for="General">General Feedback</label>
+    </div>
+        <div class="flex">
+        <input type="radio" id="Feedback2" name="Feedback">
+        <label for="Technical">Technical Issue</label>
+    </div>
+        <div class="flex">
+        <input type="radio" id="Feedback3" name="Feedback">
+        <label for="Data">Data Lost Issue</label>
+    </div>
+</div>
+        <input type="email" id="email" name="email" placeholder="you@gmail.com">
+
+        <textarea id="box" name="feedbox" rows="5" placeholder="Enter your feedback briefly"></textarea>
+
+        <div class="flex">
+        <input type="checkbox" id="check" name="checkbox" >
+        <label for="check">I accept the terms and condition of this feedback form</label>
+    </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>

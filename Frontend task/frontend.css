@@ -1,0 +1,292 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    Font-size: 18px;
+}
+h2,h3{
+    color: hsl(210, 10%, 33%);
+}
+p,h4,h5{
+    color: hsl(201, 11%, 66%);
+}
+h5{
+    cursor: pointer;
+}
+h5:hover{
+    color: hsl(171, 66%, 44%) ;
+}
+.hea{
+    background-image: url(bg-header-desktop.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+.head-img{
+    margin-top: 115px;
+}
+.head-font{
+    text-align: center;
+    font-size: larger;
+}
+.green{
+
+        width: 200px;
+        height: 45px;
+        background-color: hsl(171, 66%, 44%);
+        color:  white;
+        cursor: pointer;
+        border-radius: 22px;
+        border: none;
+        transition: 0.2s;
+}
+.green:hover{
+        background-color: hsl(171, 66%, 40%);
+        transform: scale(1.2,1.2);
+}
+.blue{
+
+    width: 200px;
+    height: 45px;
+    background-color:  hsl(233, 100%, 69%);
+    color: white;
+    cursor: pointer;
+    border-radius: 22px;
+    border: none;
+    transition: 0.2s;
+}
+.blue:hover{
+    background-color: hsl(233,100%, 60%);
+    transform: scale(1.2,1.2);
+}
+.middle{
+    margin-top: 120px;
+    text-align: center;
+}
+img.wid {
+    position: relative;
+    left: -40px;
+}
+.middle-flex{
+    margin-top: 60px;
+    display: flex;
+}
+.middle-words{
+    margin-left: 83px;
+    padding: 30px;
+}
+.third{
+    text-align: center;
+    margin-top: 135px;
+}
+.third-img{
+    margin-top: 0;
+}
+.ima{
+    display: flex;
+    justify-content: center;
+
+}
+.last{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 43px;
+}
+.icon{
+    text-align: center;
+    margin-top: 35px;
+    width: 22%;
+}
+.png{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 105px;
+}
+.foot{
+    justify-content: center;
+    margin-top: 95px;
+    margin-left: 435px;
+    width: 40%;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    background-color: aliceblue;
+}
+.low-img{
+    margin-left: 230px;
+    width: 50px;
+    height: 50px;
+    margin-top: 26px;
+}
+.low{
+    margin-left: 92px;
+    font-weight: bolder;
+}
+.tag{
+     display: flex;
+     margin-left: 410px;
+     margin-top: 39px;
+}
+.tag-1{
+    padding-left: 15px;
+    cursor: pointer;
+}
+.tag-1:hover{
+    filter: invert(25%) sepia() saturate(100000%) hue-rotate(174deg);
+  
+}
+@media  (max-width:600px){
+    body{
+        max-width: 600px;
+        font-family: 'Bai Jamjuree', sans-serif;
+        Font-size: 18px;
+    }
+    h1{
+        color: hsl(210, 10%, 33%);
+    }
+    p,h4,h5{
+        color: hsl(201, 11%, 66%);
+    }
+    .hea{
+        background-image: url(bg-header-desktop.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        max-width: 1440px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .head-img{
+        margin-top: 115px;
+    }
+    .head-font{
+        text-align: center;
+        font-size: larger;
+    }
+    .green{
+            margin-bottom: 15px;
+            width: 300px;
+            height: 52px;
+            background-color: hsl(171, 66%, 44%);
+            color:  white;
+            cursor: pointer;
+            border-radius: 22px;
+            border: none;
+            transition: 0.2s;
+    }
+    .green:hover{
+            background-color: hsl(171, 66%, 40%);
+            transform: scale(1.2,1.2);
+    }
+    .blue{
+        margin-bottom: 15px;
+        width: 300px;
+        height: 52px;
+        background-color:  hsl(233, 100%, 69%);
+        color: white;
+        cursor: pointer;
+        border-radius: 22px;
+        border: none;
+        transition: 0.2s;
+    }
+    .blue:hover{
+        background-color: hsl(233,100%, 60%);
+        transform: scale(1.2,1.2);
+    }
+    .middle{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .middle-flex{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+    .wid{
+        width: 90%;
+        
+    }
+    img.wid {
+       margin: auto;
+    }
+    .middle-words{
+        text-align: center;
+        margin: auto;
+    }
+    .third{
+        text-align: center;
+        margin-top: 135px;
+    }
+    .third-img{
+        margin-top: 0;
+            width: 90%;
+    }
+    .ima{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .last{
+        text-align: center;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 43px;
+    }
+    .icon{
+        text-align: center;
+        margin-top: 35px;
+        width: 100%;
+    }
+    .png{
+        display: flex;
+        flex-direction: column;
+        margin-top: 105px;
+        align-items: center;
+
+    }
+    .png-1 {
+        padding: 20px;
+    }
+    .foot{
+        width: 98%;
+        margin: auto;
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+        margin-top: 200px;
+        display: flex;
+        background-color: aliceblue;
+        flex-direction: column;
+    }
+    .low-img{
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        margin-top: 26px;
+    }
+    .low{
+        margin-left:1px;
+        margin-bottom: -19px;
+        font-weight: bolder;
+    }
+    .tag{
+        display: flex;
+        margin: auto;
+   }
+   .tag-1{
+       padding-left: 40px;
+       margin-top: 43px;
+   }
+}

@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(33,32,86);
+    margin: 20px;
+}
+form {
+    height: 495px;
+    width: 65%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.flex1 {
+    margin-bottom: 2%;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}       
+h2{
+    color: white;
+    text-align: center;
+}
+#name, #email, textarea {
+    font-weight: 900;
+    background-color: rgb(245,245,245);
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 45px;
+    border: none;
+    border-radius: 4px;
+}
+button {
+    margin-top: 41px;
+    width: 96%;
+    background-color: rgb(33,32,86);
+    color: #fff;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+label {
+    font-weight: 900;
+}
+
+button:hover {
+     background-color:  rgb(45, 44, 117);
+}
