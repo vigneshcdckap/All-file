@@ -1,0 +1,32 @@
+h1{
+    color: blue;
+}
+.par{
+    color: red;
+}
+#par{
+    color: darkgreen;
+}
+p.sel{
+    color: darkblue;
+}
+h3.bac{
+    color:gold;
+}
+h3.blu{
+    background-color: chartreuse;
+}
+h3.bla{
+    font-size: 30px;
+}
+*{
+    text-align: center;
+}
+h4,h5,h6{
+    color:darkblue;
+    border:solid 5px black;
+    background-color: cadetblue;
+}
+h2{
+    color: darkred;
+}

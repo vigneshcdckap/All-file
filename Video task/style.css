@@ -1,0 +1,51 @@
+body
+{
+  /* margin: 0; */
+  width: 100%;
+  overflow: hidden; 
+}
+video {  
+  margin-top: -9px;
+  margin-left: -15px;
+  width: 101%;
+  height: 790px;
+}
+h1 {
+  color: white;
+  position: relative;
+  top: 284px;
+  font-size: 54px;
+  letter-spacing: 4px;
+}
+.color{
+   background-color:#3da1f2fc;
+}
+.col {
+  top: 0px;
+  background-color: #35333382;
+  width: 100%;
+  text-align: center;
+  height: 764px;
+  position: absolute;
+  left: 0;
+}
+.container {
+  position: relative;
+  top: -180px;
+  left: 90px;
+}
+button {
+  background-color: black;
+  color: #20a4e0;
+  width: 200px;
+  font-size: 30px;
+  height: 49px;
+  border: none;
+  letter-spacing: 4px;
+  border-radius: 16px;
+}
+
+
+i.fa-solid.fa-circle{
+  font-size: 30px;
+}

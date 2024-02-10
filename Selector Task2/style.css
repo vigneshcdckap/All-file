@@ -1,0 +1,18 @@
+  /* Descendant selector  */
+div h1{
+    color: darkred;
+}
+  /* Child selector  */
+div>h5{
+    color: brown;
+  font-size: 30px;
+}
+ /* Sibling selector  */
+h3~h4{
+    color: blue;
+}
+ /* Adjacent selector */
+div+p{
+    color: darkgreen;
+    font-size: larger;
+}

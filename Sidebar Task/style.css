@@ -1,0 +1,62 @@
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+}
+img {
+    width: 215px;
+}
+#cli {
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+#clo {
+    margin-top: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -195px;
+}
+#container {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 21%;
+    background-color: white;
+    height: 668px;
+    transition:0.4s;
+}
+.fon {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.one {
+    font-size: 20px;
+    margin: 9px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #999696;
+    font-family: 'Varela Round', sans-serif;
+    transition: 0.4s;
+}
+.one:hover{
+    color: black;
+}
+#key{
+    transition:0.4s ;
+}
+#key:hover{
+    transform: scale(1.2,1.2);
+}
+.social {
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+}
