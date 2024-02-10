@@ -1,0 +1,96 @@
+body{
+    background-color:#393053;
+    font-family: "Varela Round" ;
+}
+h1{
+    color: #18122B;
+}
+h2{
+    font-size: 35px;
+}
+span{
+    font-size: 50px;
+}
+a{
+    margin: 20px 10px;
+    color: #18122B;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration:none;
+}
+nav a {
+     text-decoration: none;
+     position: relative;
+}
+
+nav a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 100%;
+    background: blue;
+    bottom: -5px;
+    height: 2px;
+    transition-duration: 0.3s;
+}
+nav a:hover:after {
+    right: 0%;
+}
+.tag{
+    display: flex;
+    width: 101%;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    background-color: white;
+    justify-content: space-between;
+}
+span{
+    background:linear-gradient( rgb(181, 255, 211) 0.02%,  rgb(209, 164, 255) 39.16%,rgb(255, 165, 175) 75.82%, rgb(255, 220, 164) 112%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav{
+    padding: 30px;
+    gap: 10px;
+}
+.column{
+    width: 55%;
+    color: white;
+}
+p{
+    width: 89%;
+    font-size: 21px;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+img{
+    width: 23%;
+    position: relative;
+    right: -15px;
+    top: 15px;
+    border-radius: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color:  #77037B;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transition: 0.2s;
+}
+button:hover{
+    color:  #77037B;
+    background-color:  white;
+    transform: scale(1.3,1.3);
+}

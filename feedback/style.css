@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(33,32,86);
+    margin: 20px;
+}
+form {
+    height: 495px;
+    width: 65%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.flex1 {
+    margin-bottom: 2%;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+#name, #email, textarea {
+    background-color: rgb(245,245,245);
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 45px;
+    border: none;
+    border-radius: 4px;
+}
+button {
+    width: 98%;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 24px;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+.invalid {
+    margin-top: -10px;
+    background-color: #ff3b3b;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 10px;
+}
+.red{
+    display: block;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    display: block;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #02ad02;
+}
+input#Feedback1,#Feedback2,#Feedback3,#check {
+    cursor: pointer;
+}
